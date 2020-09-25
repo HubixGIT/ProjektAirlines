@@ -1,0 +1,17 @@
+C:\Users\hubert\source\repos\ProjektAirlines\ProjektAirlines\bin\Debug\AirlineDB.mdf
+C:\Users\hubert\source\repos\ProjektAirlines\ProjektAirlines\bin\Debug\AirlineDB_log.ldf
+C:\Users\hubert\source\repos\ProjektAirlines\ProjektAirlines\bin\Debug\ProjektAirlines.exe.config
+C:\Users\hubert\source\repos\ProjektAirlines\ProjektAirlines\bin\Debug\ProjektAirlines.exe
+C:\Users\hubert\source\repos\ProjektAirlines\ProjektAirlines\bin\Debug\ProjektAirlines.pdb
+C:\Users\hubert\source\repos\ProjektAirlines\ProjektAirlines\obj\Debug\ProjektAirlines.csprojAssemblyReference.cache
+C:\Users\hubert\source\repos\ProjektAirlines\ProjektAirlines\obj\Debug\ProjektAirlines.LoginPage.resources
+C:\Users\hubert\source\repos\ProjektAirlines\ProjektAirlines\obj\Debug\ProjektAirlines.Properties.Resources.resources
+C:\Users\hubert\source\repos\ProjektAirlines\ProjektAirlines\obj\Debug\ProjektAirlines.csproj.GenerateResource.cache
+C:\Users\hubert\source\repos\ProjektAirlines\ProjektAirlines\obj\Debug\ProjektAirlines.csproj.CoreCompileInputs.cache
+C:\Users\hubert\source\repos\ProjektAirlines\ProjektAirlines\obj\Debug\ProjektAirlines.exe
+C:\Users\hubert\source\repos\ProjektAirlines\ProjektAirlines\obj\Debug\ProjektAirlines.pdb
+C:\Users\hubert\source\repos\ProjektAirlines\ProjektAirlines\obj\Debug\ProjektAirlines.Customer.resources
+C:\Users\hubert\source\repos\ProjektAirlines\ProjektAirlines\obj\Debug\ProjektAirlines.SearchCustomer.resources
+C:\Users\hubert\source\repos\ProjektAirlines\ProjektAirlines\obj\Debug\ProjektAirlines.FlightDetails.resources
+C:\Users\hubert\source\repos\ProjektAirlines\ProjektAirlines\obj\Debug\ProjektAirlines.SearchFlight.resources
+C:\Users\hubert\source\repos\ProjektAirlines\ProjektAirlines\obj\Debug\ProjektAirlines.MainPage.resources
