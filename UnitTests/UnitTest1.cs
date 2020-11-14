@@ -38,7 +38,7 @@ namespace UnitTests
             var flightPrice = priceTest.FlightPrice(distance, people, index);
 
             //Assert
-            Assert.AreEqual(310, flightPrice);
+            Assert.AreEqual(priceExpected, flightPrice);
             
 
         }
