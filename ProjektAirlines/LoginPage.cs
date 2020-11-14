@@ -22,6 +22,8 @@ namespace ProjektAirlines
         string cs = @"Data Source=(LocalDB)\MSSQLLocalDB;
                     AttachDbFilename=C:\Users\hubert\source\repos\ProjektAirlines\ProjektAirlines\AirlineDB.mdf;
                     Integrated Security=True";
+
+        //Logowanie po wprowadzeniu znanych nam hasel, sprawdza czy pola sa puste
         private void btnLogin_Click(object sender, EventArgs e)
         {
             if (txtUserName.Text == " " || txtPassword.Text == " ")

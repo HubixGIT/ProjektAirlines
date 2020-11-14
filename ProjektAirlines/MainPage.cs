@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace ProjektAirlines
 {
+    //Glowne okno po logowaniu, sluzy do otwierania pozostalych okien
     public partial class MainPage : Form
     {
         public MainPage()
@@ -43,6 +44,11 @@ namespace ProjektAirlines
             SearchFlight search = new SearchFlight();
             search.MdiParent = this;
             search.Show();
+        }
+
+        private void flightDetailsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

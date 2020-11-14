@@ -11,6 +11,7 @@ using System.Windows.Forms;
 
 namespace ProjektAirlines
 {
+    //Sluzy do przegladania zapisanych danych w baziedanych Lotow i mozliwosci zapisu lotow do klientow "Bookowanie"
     public partial class SearchFlight : Form
     {
         

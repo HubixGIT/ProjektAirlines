@@ -11,9 +11,10 @@ using System.Windows.Forms;
 
 namespace ProjektAirlines
 {
+    //Sluzy do przegladania zapisanych danych w baziedanych Klientow
     public partial class SearchCustomer : Form
     {
-        SqlCommand cmd;
+        //SqlCommand cmd;
         SqlConnection con;
         SqlDataAdapter da;
         DataTable ds;

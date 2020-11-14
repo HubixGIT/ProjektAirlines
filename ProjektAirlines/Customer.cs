@@ -24,7 +24,7 @@ namespace ProjektAirlines
         {
             InitializeComponent();
         }
-        
+        //Dodawanie danych klienta do bazydanych po kliknieciu przycisku "Add"
         private void btnAddDetails_Click(object sender, EventArgs e)
         {
             con = new SqlConnection(cs);
@@ -41,7 +41,7 @@ namespace ProjektAirlines
             MessageBox.Show("Data has been added");
             con.Close();
         }
-
+        //Aktualizacja danych po kliknieciu przycisku "Update"
         private void button1_Click(object sender, EventArgs e)
         {
             con = new SqlConnection(cs);
@@ -56,6 +56,11 @@ namespace ProjektAirlines
             cmd.Parameters.AddWithValue("a6", Convert.ToInt32(txtId.Text));
             cmd.ExecuteNonQuery();
             MessageBox.Show("Data has been updated");
+        }
+
+        private void txtName_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

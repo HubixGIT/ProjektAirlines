@@ -66,6 +66,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AirlineDBDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Functions.cs" />
     <Compile Include="Customer.cs">
       <SubType>Form</SubType>
     </Compile>
