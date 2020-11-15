@@ -10,7 +10,9 @@ using System.Windows.Forms;
 
 namespace ProjektAirlines
 {
-    //Glowne okno po logowaniu, sluzy do otwierania pozostalych okien
+    /// <summary>
+    /// Glowne okno po zalogowaniu, sluzy do trzymania reszty okien i latwej nawigacji w aplikacji
+    /// </summary>
     public partial class MainPage : Form
     {
         public MainPage()
@@ -47,6 +49,11 @@ namespace ProjektAirlines
         }
 
         private void flightDetailsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void customerDetailsToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }

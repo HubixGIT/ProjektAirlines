@@ -11,7 +11,9 @@ using System.Windows.Forms;
 
 namespace ProjektAirlines
 {
-    //W tym okienie dodajemy informacje o lotach i automatycznie wylicza nam cene biletow
+    /// <summary>
+    /// Okno FlightDetails pozwala na wpisaniu danych o locie do bazydanych
+    /// </summary>
     public partial class FlightDetails : Form
     {
         SqlCommand cmd;

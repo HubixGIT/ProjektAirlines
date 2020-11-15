@@ -6,9 +6,17 @@ using System.Threading.Tasks;
 
 namespace ProjektAirlines
 {
+    /// <summary>
+    /// Klasa posiada 2 metody, , FlightPrice oblicza cene lotu
+    /// </summary>
     public class Functions
     {
-        //Oblicza "odleglosc" lotu
+        /// <summary>
+        /// Metoda Distance oblicza odleglosc lotu poprzez zamieniania pirwszej litery na liczbe calkowita z ASCII
+        /// </summary>
+        /// <param name="a">String miejscowosci do ktorej leci lot</param>
+        /// <param name="b">String miejscowosci od ktorej leci lot</param>
+        /// <returns>Liczba calkowita odleglosci dwoch miejscowosci</returns>
         public int Distance(string a, string b)
         {
             int arrival = 0, destination = 0, distance = 0;
@@ -24,7 +32,13 @@ namespace ProjektAirlines
             return distance;
         }
 
-        //Oblicza cene lotu
+        /// <summary>
+        /// Metoda FlightPrice oblicz cene lotu
+        /// </summary>
+        /// <param name="distance">Calkowita liczba obliczona przez metode Distance</param>
+        /// <param name="seats">Ilosc siedzen wybranych na lot</param>
+        /// <param name="b">Indeks wybranej klasy lotu</param>
+        /// <returns>Calkowita cena za lot</returns>
         public int FlightPrice(int distance, decimal seats, int b)
         {
             int nrSeats = 0, fullPrice = 0, fuelPrice = 2;

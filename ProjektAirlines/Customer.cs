@@ -11,6 +11,9 @@ using System.Windows.Forms;
 
 namespace ProjektAirlines
 {
+    /// <summary>
+    /// Okno Customer pozwala na dodanie danych klienta w baziedanych SQL
+    /// </summary>
     public partial class Customer : Form
     {
         SqlCommand cmd;

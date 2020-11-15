@@ -57,18 +57,19 @@
             this.customerDetailsToolStripMenuItem.Name = "customerDetailsToolStripMenuItem";
             this.customerDetailsToolStripMenuItem.Size = new System.Drawing.Size(109, 20);
             this.customerDetailsToolStripMenuItem.Text = "Customer Details";
+            this.customerDetailsToolStripMenuItem.Click += new System.EventHandler(this.customerDetailsToolStripMenuItem_Click);
             // 
             // addCustomerToolStripMenuItem1
             // 
             this.addCustomerToolStripMenuItem1.Name = "addCustomerToolStripMenuItem1";
-            this.addCustomerToolStripMenuItem1.Size = new System.Drawing.Size(164, 22);
+            this.addCustomerToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.addCustomerToolStripMenuItem1.Text = "Add Customer";
             this.addCustomerToolStripMenuItem1.Click += new System.EventHandler(this.addCustomerToolStripMenuItem1_Click);
             // 
             // searchCustomerToolStripMenuItem1
             // 
             this.searchCustomerToolStripMenuItem1.Name = "searchCustomerToolStripMenuItem1";
-            this.searchCustomerToolStripMenuItem1.Size = new System.Drawing.Size(164, 22);
+            this.searchCustomerToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.searchCustomerToolStripMenuItem1.Text = "Search Customer";
             this.searchCustomerToolStripMenuItem1.Click += new System.EventHandler(this.searchCustomerToolStripMenuItem1_Click);
             // 
@@ -85,14 +86,14 @@
             // addCustomerToolStripMenuItem
             // 
             this.addCustomerToolStripMenuItem.Name = "addCustomerToolStripMenuItem";
-            this.addCustomerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.addCustomerToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.addCustomerToolStripMenuItem.Text = "Add Flight";
             this.addCustomerToolStripMenuItem.Click += new System.EventHandler(this.addCustomerToolStripMenuItem_Click);
             // 
             // searchCustomerToolStripMenuItem
             // 
             this.searchCustomerToolStripMenuItem.Name = "searchCustomerToolStripMenuItem";
-            this.searchCustomerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.searchCustomerToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.searchCustomerToolStripMenuItem.Text = "Search Flight";
             this.searchCustomerToolStripMenuItem.Click += new System.EventHandler(this.searchCustomerToolStripMenuItem_Click);
             // 

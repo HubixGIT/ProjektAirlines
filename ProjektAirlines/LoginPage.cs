@@ -11,6 +11,9 @@ using System.Windows.Forms;
 
 namespace ProjektAirlines
 {
+    /// <summary>
+    /// Okno LoginPage pozwala na logowanie do aplikacji
+    /// </summary>
     public partial class LoginPage : Form
     {
         public LoginPage()

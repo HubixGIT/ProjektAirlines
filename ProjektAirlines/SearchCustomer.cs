@@ -11,7 +11,9 @@ using System.Windows.Forms;
 
 namespace ProjektAirlines
 {
-    //Sluzy do przegladania zapisanych danych w baziedanych Klientow
+    /// <summary>
+    /// Okno sluzy do wyszukiwania danych o kliencie i pokazaniu ich w przejrzysty sposob
+    /// </summary>
     public partial class SearchCustomer : Form
     {
         //SqlCommand cmd;
